@@ -26,7 +26,7 @@ The usage is shown using the Intellij IDE
 1. In the pom.xml under the properties tag the corresponding data concerning server and target directory must be adapted
 2. After that in the Intellij the remote server has to be announced under the Debug option
 
-	a. To do this you go to the top link edit configuration
+	a. To do this you go to the top left corner edit configuration
 	
 	b. Then click on the plus symbol and select Remote
 	
