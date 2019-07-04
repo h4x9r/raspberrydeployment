@@ -6,6 +6,7 @@ Example Java application for remote upload and debugging
 
 ## Usage
 The usage is shown using the Intellij IDE
+
 0. The raspberryDeployment server must be announced in settigns.xml
 	<servers>
           <server>
