@@ -1,3 +1,4 @@
+
 # raspberrydeployment
 
 
@@ -9,13 +10,17 @@ The usage is shown using the Intellij IDE
 
 0. The raspberryDeployment server must be announced in settigns.xml
 
+
+```xml
 <servers>
-<server>
-<id>raspberryDeployment</id>
-<username>user</username>
-<password>secret</password>
-</server>
+	<server>
+	<id>raspberryDeployment</id>
+	<username>user</username>
+	<password>secret</password>
+	</server>
 </servers>
+```
+
 
 
 1. In the pom.xml under the properties tag the corresponding data concerning server and target directory must be adapted
