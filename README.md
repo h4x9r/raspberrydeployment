@@ -8,13 +8,13 @@ Example Java application for remote upload and debugging
 The usage is shown using the Intellij IDE
 
 0. The raspberryDeployment server must be announced in settigns.xml
-	<servers>
-          <server>
-              <id>raspberryDeployment</id>
-              <username>user</username>
-              <password>user</password>
-          </server>
-      </servers>
+<servers>
+  <server>
+  <id>raspberryDeployment</id>
+  <username>user</username>
+  <password>secret</password>
+  </server>
+</servers>
 1. In the pom.xml under the properties tag the corresponding data concerning server and target directory must be adapted
 2. After that in the Intellij the remote server has to be announced under the Debug option
 
